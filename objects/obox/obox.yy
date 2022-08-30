@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "sWordWall",
-    "path": "sprites/sWordWall/sWordWall.yy",
+    "name": "sBox",
+    "path": "sprites/sBox/sBox.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -29,7 +29,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWordWall",
+  "name": "oBox",
   "tags": [],
   "resourceType": "GMObject",
 }
