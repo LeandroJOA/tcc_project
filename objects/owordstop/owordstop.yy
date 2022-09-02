@@ -3,7 +3,7 @@
     "name": "sWordStop",
     "path": "sprites/sWordStop/sWordStop.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

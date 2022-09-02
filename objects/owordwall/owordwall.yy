@@ -3,7 +3,7 @@
     "name": "sWordWall",
     "path": "sprites/sWordWall/sWordWall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
