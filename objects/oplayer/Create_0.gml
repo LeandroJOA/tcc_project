@@ -10,3 +10,7 @@ vspd=0;
 //spd=2;
 
 i = 0;
+
+wallCollision = false;
+
+wallSolid = true;

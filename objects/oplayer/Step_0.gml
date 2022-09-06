@@ -1,19 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
-if keyboard_check(vk_up) & place_free(x, y-collision) {
+if keyboard_check(vk_up) & place_empty(x, y-collision) {
 	y-=spd;
 }
 
-if keyboard_check(vk_left) & place_free(x-collision, y) {
+if keyboard_check(vk_left) & place_empty(x-collision, y) {
 	x-=spd;
 }
 
-if keyboard_check(vk_down) & place_free(x, y+collision) {
+if keyboard_check(vk_down) & place_empty(x, y+collision) {
 	y+=spd;
 }
 
 
-if keyboard_check(vk_right) & place_free(x+collision, y) {
+if keyboard_check(vk_right) & place_empty(x+collision, y) {
 	x+=spd;
 }
 
@@ -94,7 +94,26 @@ if keyboard_check(vk_right)
 	}
 }
 
-if place_meeting(oWordWall.x + 5, oWordWall.y, oWordStop) {
-	i++;
-	show_debug_message(i);
+if place_meeting(oWordIs.x - 3, oWordIs.y, oWordWall) && place_meeting(oWordIs.x + 12, oWordIs.y, oWordStop) {
+	
+} else {
+	if keyboard_check(vk_right) && place_meeting(x + 12, y, oWall) {
+		x+=spd;
+	}
+	
+	if keyboard_check(vk_right) && place_meeting(x - 3, y, oWall) {
+		x+=spd;
+	}
+	
+	if keyboard_check(vk_left) && place_meeting(x + 12, y, oWall) {
+		x-=spd;
+	}
+	
+	if keyboard_check(vk_left) && place_meeting(x - 3, y, oWall) {
+		x-=spd;
+	}	
+}
+
+if place_meeting(x + 5, y, oFlag) {
+	room_restart();	
 }
