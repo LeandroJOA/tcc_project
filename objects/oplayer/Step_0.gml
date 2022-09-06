@@ -31,6 +31,10 @@ if keyboard_check(vk_up)
 	if place_meeting(x, y - 5, oWordWall) {
 		oWordWall.y -= 1;
 	}
+	
+	if place_meeting(x, y - 5, oWordIs) {
+		oWordIs.y -= 1;
+	}
 }
 
 if keyboard_check(vk_left)
@@ -45,6 +49,10 @@ if keyboard_check(vk_left)
 	
 	if place_meeting(x - 5, y, oWordWall) {
 		oWordWall.x -= 1;
+	}
+	
+	if place_meeting(x - 5, y, oWordIs) {
+		oWordIs.x -= 1;
 	}
 }
 
@@ -61,6 +69,10 @@ if keyboard_check(vk_down)
 	if place_meeting(x, y + 5, oWordWall) {
 		oWordWall.y += 1;
 	}
+	
+	if place_meeting(x, y + 5, oWordIs) {
+		oWordIs.y += 1;
+	}
 }
 
 if keyboard_check(vk_right)
@@ -75,6 +87,10 @@ if keyboard_check(vk_right)
 	
 	if place_meeting(x + 5, y, oWordWall) {
 		oWordWall.x += 1;
+	}
+	
+	if place_meeting(x + 5, y, oWordIs) {
+		oWordIs.x += 1;
 	}
 }
 
