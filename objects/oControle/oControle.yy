@@ -1,12 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWordIs",
-  "spriteId": {
-    "name": "sWordIs",
-    "path": "sprites/sWordIs/sWordIs.yy",
-  },
-  "solid": true,
+  "name": "oControle",
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -25,8 +22,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oWordStop","path":"objects/oWordStop/oWordStop.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oWordWall","path":"objects/oWordWall/oWordWall.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -117,3 +117,14 @@ if place_meeting(oWordIs.x - 3, oWordIs.y, oWordWall) && place_meeting(oWordIs.x
 if place_meeting(x + 5, y, oFlag) {
 	room_restart();	
 }
+
+
+#region Dialogo
+if distance_to_object(oParent_npcs) <= 10 {
+	if keyboard_check_pressed(ord("F")) {//and global.dialogo == false
+		var _npc = instance_nearest(x, y, oParent_npcs);	
+		var _dialogo = instance_create_layer(x, y, "Dialogo", oDialogo);
+		_dialogo.npc_nome = _npc.nome;
+	}
+}
+#endregion
