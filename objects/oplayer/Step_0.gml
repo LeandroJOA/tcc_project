@@ -98,24 +98,44 @@ if place_meeting(oWordIs.x - 3, oWordIs.y, oWordWall) && place_meeting(oWordIs.x
 	
 } else {
 	if keyboard_check(vk_right) && place_meeting(x + 12, y, oWall) {
-		x+=spd;
+		x+=spd*0.70;
 	}
 	
 	if keyboard_check(vk_right) && place_meeting(x - 3, y, oWall) {
-		x+=spd;
+		x+=spd*0.70;
 	}
 	
 	if keyboard_check(vk_left) && place_meeting(x + 12, y, oWall) {
-		x-=spd;
+		x-=spd*0.70;
 	}
 	
 	if keyboard_check(vk_left) && place_meeting(x - 3, y, oWall) {
-		x-=spd;
+		x-=spd*0.70;
 	}	
+	
+	if keyboard_check(vk_down) && place_meeting(x, y + 12, oWall) {
+		y+=spd*0.70;
+	}
+	
+	if keyboard_check(vk_down) && place_meeting(x, y - 3, oWall) {
+		y+=spd*0.70;
+	}
+	
+	if keyboard_check(vk_up) && place_meeting(x, y + 12, oWall) {
+		y-=spd*0.70;
+	}
+	
+	if keyboard_check(vk_up) && place_meeting(x, y - 3, oWall) {
+		y-=spd*0.70;
+	}
 }
 
 if place_meeting(x + 5, y, oFlag) {
 	room_goto_next();	
+}
+
+if keyboard_check(ord("R")) {
+	room_restart();	
 }
 
 

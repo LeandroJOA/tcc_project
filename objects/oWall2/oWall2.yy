@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWordWall",
+  "name": "oWall2",
   "spriteId": {
-    "name": "sWordWall",
-    "path": "sprites/sWordWall/sWordWall.yy",
+    "name": "sWall2",
+    "path": "sprites/sWall2/sWall2.yy",
   },
   "solid": true,
   "visible": true,
