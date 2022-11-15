@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oTituloPseudo",
   "spriteId": {
-    "name": "Sprite15",
-    "path": "sprites/Sprite15/Sprite15.yy",
+    "name": "sPseudoTitulo",
+    "path": "sprites/sPseudoTitulo/sPseudoTitulo.yy",
   },
   "solid": false,
   "visible": true,
