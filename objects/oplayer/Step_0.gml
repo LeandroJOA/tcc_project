@@ -115,7 +115,7 @@ if place_meeting(oWordIs.x - 3, oWordIs.y, oWordWall) && place_meeting(oWordIs.x
 }
 
 if place_meeting(x + 5, y, oFlag) {
-	room_restart();	
+	room_goto_next();	
 }
 
 
