@@ -119,7 +119,7 @@ if place_meeting(x + 5, y, oFlag) {
 }
 
 
-#region Instances
+#region Dialogo
 if distance_to_object(oParent_npcs) <= 10 {
 	if keyboard_check_pressed(ord("F")) {//and global.dialogo == false
 		var _npc = instance_nearest(x, y, oParent_npcs);	
