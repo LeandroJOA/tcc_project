@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPseudocodigo",
-  "spriteId": null,
+  "name": "oEndScreen",
+  "spriteId": {
+    "name": "sEndScreen",
+    "path": "sprites/sEndScreen/sEndScreen.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
