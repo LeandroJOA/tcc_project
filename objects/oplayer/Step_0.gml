@@ -130,7 +130,7 @@ if place_meeting(oWordIs.x - 3, oWordIs.y, oWordWall) && place_meeting(oWordIs.x
 	}
 }
 
-if place_meeting(x + 5, y, oFlag) {
+if place_meeting(x + 5, y, oFlag) || place_meeting(x - 5, y, oFlag) || place_meeting(x, y + 5, oFlag) || place_meeting(x, y - 5, oFlag) {
 	room_goto_next();	
 }
 

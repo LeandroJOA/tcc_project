@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oTeclaF",
-  "spriteId": null,
+  "name": "oDialogueText",
+  "spriteId": {
+    "name": "sDialogueText",
+    "path": "sprites/sDialogueText/sDialogueText.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

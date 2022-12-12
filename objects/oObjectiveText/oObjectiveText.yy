@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oTeclaF",
-  "spriteId": null,
+  "name": "oObjectiveText",
+  "spriteId": {
+    "name": "sObjectiveText",
+    "path": "sprites/sObjectiveText/sObjectiveText.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
